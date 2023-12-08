@@ -4,6 +4,11 @@ This app was created for the [Women Who Code Hackathon for Social Good 2023](htt
 
 Moodlets was inspired by the Sims moodlets (+ personal experiences) and uses colourful visual components to track, update, and send timely notifications about different mental and physical needs.
 
+## Download the App
+
+- [iOS App](https://apps.apple.com/us/app/moodlets/id6469671381)
+- [Android App](https://play.google.com/store/apps/details?id=com.moodlet)
+
 ## Challenge Statement
 
 This project is aimed at addressing the challenge of individuals frequently overlooking their basic health needs due to being “in the zone”, hyperfocused, or from mental health problems.
@@ -41,10 +46,6 @@ This project was created with ❤️ by [Josie Daw](https://josiedaw.com) for th
 - React Native UI Kitten (components and theming)
 - Firebase (authentication and database)
 
-## Screenshots
-
-![image](https://github.com/JosDaw/moodlets-app/assets/23613172/d836fd47-57be-47ee-b1f4-a529470ea9c3)
-
 ## How to Install and Run
 
 - `git clone` the project
@@ -69,8 +70,3 @@ For example, a user that sets hunger at 100% will receive a reminder in 6 hours 
 | Fun         |  48 hours   |  24 hours   |  12 hours   |
 
 Notifications that are scheduled to push at the same time will be adjusted to be scheduled 30 minutes later.
-
-### OTA updates
-
-1. Create a new build: eas build --profile production --platform ios
-2. Push to all production builds: eas update --branch production --message "OTA update"
