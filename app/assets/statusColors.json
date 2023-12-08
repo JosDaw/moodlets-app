@@ -1,0 +1,8 @@
+{
+  "hunger": "#FFD700",
+  "thirst": "#E0FFFF",
+  "energy": "#FFA07A",
+  "hygiene": "#98FB98",
+  "fun": "#FFB6C1",
+  "social": "#FFE4E1"
+}

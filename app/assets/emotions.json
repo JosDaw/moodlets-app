@@ -1,0 +1,8 @@
+[
+  { "text": "excited", "color": "#00E096" },
+  { "text": "happy", "color": "#51F0B0" },
+  { "text": "neutral", "color": "#FFAA00" },
+  { "text": "sad", "color": "#DB8B00" },
+  { "text": "angry", "color": "#DB2C66" },
+  { "text": "sick", "color": "#D0A5DB" }
+]

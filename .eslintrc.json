@@ -1,0 +1,15 @@
+{
+  "extends": ["universe", "plugin:react-hooks/recommended"],
+  "rules": {
+    "import/order": [
+      "warning",
+      {
+        "groups": [
+          ["builtin", "external"],
+          "internal",
+          ["parent", "sibling", "index"]
+        ]
+      }
+    ]
+  }
+}

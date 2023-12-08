@@ -1,0 +1,78 @@
+{
+  "expo": {
+    "name": "moodlets",
+    "slug": "moodlet",
+    "scheme": "moodlets",
+    "version": "1.01.20",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#94CBFF"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.moodlet"
+    },
+    "android": {
+      "versionCode": 8,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#94CBFF"
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "com.moodlet"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "build": {
+        "babel": {
+          "include": ["@ui-kitten/components"]
+        }
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-updates",
+        {
+          "username": "jocdand"
+        }
+      ],
+      "sentry-expo"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "95c8fa3a-fd52-4b9c-8e5d-66021db7a233"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/95c8fa3a-fd52-4b9c-8e5d-66021db7a233"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "c9680dfd99aa",
+            "project": "moodlets-app",
+            "authToken": ""
+          }
+        }
+      ]
+    }
+  }
+}
